@@ -13,6 +13,7 @@ class Absence extends Model
 
     protected $casts = [
         'justifie_at' => 'datetime',
+        
     ];
 
     public function etudiant()
